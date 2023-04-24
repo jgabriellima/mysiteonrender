@@ -1,0 +1,50 @@
+# gitignore file
+    #
+    # For a project mostly in C, the following would be a good set of
+    # rules: (uncomment them if you want to use them)
+    # *.[oa]
+    # *~
+    #
+    # NOTE: If you have a case where a file should be checked in to the
+    # repository that would otherwise be caught by one of the patterns
+    # listed above, you can place a ! (not) in front of the pattern,
+    # which will reverse the pattern.  For example, if you have a file
+    # called TODO.txt, you could create a rule that looks like this:
+    #
+    # !TODO.txt
+    #
+    # These patterns are a set of basic regular expressions.  For more
+    # information on gitignore patterns, see gitignore(5).
+    #
+    # If you would like to create a gitignore file for your project,
+    # but you have no idea what to put in it, you can run the following
+    # command:
+    #
+    #   git ls-files --others --ignored --exclude-standard
+    #
+    # This will list all the files that are not already tracked by git,
+    # and are not in your .gitignore file.  You can then move these
+    # files into your .gitignore file, and git will never add them.
+    #
+    # If you want to create a gitignore file that will ignore all the
+    # files that are already in your repository, you can run the
+    # following command:
+    #
+    #   git ls-files --others --ignored --exclude-standard | xargs git rm -r --cached
+    #
+    # This will remove all the files that are not already tracked by git,
+    # and are not in your .gitignore file.  You can then move these
+    # files into your .gitignore file, and git will never add them.
+    #
+    # If you want to create a gitignore file that will ignore all the
+    # files that are already in your repository, you can run the
+    # following command:
+    #
+    #   git ls-files --others --ignored --exclude-standard | xargs git rm -r --cached
+    #
+    # This will remove all the files that are not already tracked by git,
+    # and are not in your .gitignore file.  You can then move these
+    # files into your .gitignore file, and git will never add them.
+
+.idea
+
